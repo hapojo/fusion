@@ -1,0 +1,85 @@
+body {
+    font-family: 'PT Sans';
+    background-color: #FFFFFF;
+}
+
+.logo {
+    padding-left: 20px;
+    border-bottom: #D9D9D9;
+    color: #000000;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+}
+
+.bi-globe {
+    color: #FDB704;
+}
+
+
+#flexSwitchCheckDefault {
+    border: #FDB704 !important;
+    background-color: #EBEBEB !important;
+}
+
+.login-account h1 {
+    font-family: 'PT Sans';
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0em;
+}
+
+.login-account p {
+    font-family: 'PT Sans';
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.log-border {
+    text-decoration: none;
+    font-weight: 700;
+    color: #000000;
+}
+
+.log-border:hover {
+    border-bottom: 2px solid #FDB704;
+    color: #000000;
+}
+
+.form-group input {
+    width: 391px;
+    height: 46px;
+    background: #EBEBEB;
+    border: 1px solid rgba(135, 135, 135, 0.59);
+    border-radius: 10px;
+    font-family: 'PT Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #000000;
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.login-account button {
+    height: 42px;
+    width: 200px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background: #FDB704;
+    border: #FDB704;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.social a {
+    color: #000000;
+    margin-right: 20px;
+}

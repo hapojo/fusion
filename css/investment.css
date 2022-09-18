@@ -1,0 +1,214 @@
+body {
+    font-family: 'PT Sans';
+    background-color: #FFFFFF;
+}
+
+.logo {
+    padding-left: 20px;
+    border-bottom: #D9D9D9;
+    color: #000000;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+}
+
+.bi-globe {
+    color: #FDB704;
+}
+
+
+#flexSwitchCheckDefault {
+    border: #FDB704 !important;
+    background-color: #EBEBEB !important;
+}
+
+.ethereum-img img {
+    width: 500px;
+    height: 400px;
+}
+
+/* investment-section1 */
+
+.investment-section1 {
+    background-color: #000000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 15px;
+}
+
+.investment-section1 .staking {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.investment-section1 h5 {
+    color: #FFFFFF;
+    font-family: 'PT Sans';
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.investment-section1 p {
+    font-family: 'PT Sans';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+/* stake-section2 */
+.invest-section2 {
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 15px;
+    padding-bottom: 50px;
+}
+
+.invest-with-us h1 {
+    font-family: 'PT Sans';
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#4D4D4D;
+}
+
+.invest-with-us p {
+    font-family: 'PT Sans';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.invest-border {
+    margin-top: 20px;
+    border: 1px solid #FDB704;
+    padding-top: 20px;
+    text-align: center;
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+.invest-border h5 {
+    font-family: 'PT Sans';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+}
+
+.invest-border h6 {
+    font-family: 'PT Sans';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    margin-top: 15px;
+}
+
+.invest-border p {
+    color: #00000080;
+    font-family: 'PT Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+}
+
+.invest-border button {
+    height: 42px;
+    width: 150px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background: #FDB704;
+    border: #FDB704;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* persistence */
+.persist-section3 {
+    background: #000008;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-bottom: 30px;
+    padding-right: 100px;
+}
+
+.persist-section3 .accordion-item, .accordion-button {
+    background-color: #000008;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 5px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;   
+}
+
+.accordion-button:not(.collapsed) {
+    color: #FFFFFF;
+    background-color: #000008;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button.collapsed::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    border: none !important;
+    outline: none !important;
+  }
+
+/* footer */
+
+.ethereum-footer {
+    background-color: #000000;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    border-top: 1px solid #FDB704;
+}
+
+footer h5 {
+    font-family: 'PT Sans';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+footer li {
+    font-family: 'PT Sans';
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
