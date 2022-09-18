@@ -1,0 +1,65 @@
+body {
+    font-family: 'PT Sans';
+    background-color: #FFFFFF;
+}
+
+.logo {
+    padding-left: 20px;
+    border-bottom: #D9D9D9;
+    color: #000000;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+}
+
+.bi-globe {
+    color: #FDB704;
+}
+
+
+#flexSwitchCheckDefault {
+    border: #FDB704 !important;
+    background-color: #EBEBEB !important;
+}
+
+.ethereum-img img {
+    width: 500px;
+    height: 400px;
+}
+
+/* ethereum-section1 */
+
+.ethereum-section1 {
+    background-color: #000000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 15px;
+}
+
+.ethereum-section1 .staking {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.ethereum-section1 h5 {
+    color: #FFFFFF;
+    font-family: 'PT Sans';
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.ethereum-section1 p {
+    font-family: 'PT Sans';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
