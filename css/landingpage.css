@@ -47,8 +47,6 @@ body {
 .connect button {
     height: 42px;
     width: 200px;
-    left: 119px;
-    top: 457px;
     border-radius: 5px;
     color: #FFFFFF;
     background: #FDB704;
@@ -68,7 +66,7 @@ body {
     height: 337px;
 }
 
-.top-vector  img{
+.top-vector  img {
     position: absolute;
     top: 80px;
     width: 1400px; 
