@@ -143,9 +143,10 @@ body {
     padding-top: 30px;
     padding-left: 60px;
     padding-bottom: 30px;
+    padding-right: 100px;
 }
 
-.persist-section3 .accordion {
+.persist-section3 .accordion-item, .accordion-button {
     background-color: #000008;
     color: #FFFFFF;
     cursor: pointer;
@@ -157,9 +158,18 @@ body {
     transition: 0.4s;   
 }
 
-.persist-section3 .panel {
-    padding: 0 18px;
+.accordion-button:not(.collapsed) {
+    color: #FFFFFF;
     background-color: #000008;
-    display: none;
-    overflow: hidden;
+    box-shadow: none;
 }
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button.collapsed::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    border: none !important;
+    outline: none !important;
+  }
